@@ -1,16 +1,26 @@
 <template>
-  <div class="container">
+  <div
+    class="container mx-auto min-h-screen flex justify-center items-center text-center"
+  >
     <div>
       <Logo />
-      <h1 class="title">
+      <h1 class="title block font-semibold text-gray-800 text-5xl">
         Rangi
       </h1>
-      <h3 class="subtitle">A color gradient generator</h3>
-      <div class="links">
-        <nuxt-link to="/two-color-gradient" class="button--green">
+      <h3 class="subtitle font-normal text-lg text-gray-700 pb-5">
+        A color gradient generator
+      </h3>
+      <div class="links pt-5 flex flex-col">
+        <nuxt-link
+          to="/two-color-gradient"
+          class="button--green inline-block border-2 border-primary-900 py-2 px-5 mb-5 rounded-md"
+        >
           Two color gradient
         </nuxt-link>
-        <nuxt-link to="/three-color-gradient" class="button--grey">
+        <nuxt-link
+          to="/three-color-gradient"
+          class="button--grey inline-block border-2 border-primary-900 py-2 px-5 rounded-md"
+        >
           Three color gradient
         </nuxt-link>
       </div>
@@ -22,52 +32,4 @@
 export default {}
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  display: block;
-  font-weight: 600;
-  font-size: 5rem;
-  color: #35495e;
-  letter-spacing: 2px;
-}
-
-.subtitle {
-  font-weight: 400;
-  font-size: 1.5rem;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-  display: flex;
-  flex-direction: column;
-}
-
-.button--green,
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 2px solid #004d40;
-  color: #004d40;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-bottom: 1.2rem;
-}
-
-.button--green:hover,
-.button--grey:hover {
-  color: #fff;
-  background-color: #004d40;
-}
-</style>
+<style></style>
