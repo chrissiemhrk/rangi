@@ -1,6 +1,6 @@
 # Rangi
 
-> A color gradient generator
+A color gradient generator
 
 ## Build Setup
 
