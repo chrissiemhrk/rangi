@@ -1,6 +1,12 @@
 module.exports = {
   theme: {
     extend: {
+      screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+      },
       colors: {
         primary: {
           50: '#e0f2f1',
@@ -28,7 +34,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['Source Sans Pro', 'sans-serif'],
+        sans: ['Open Sans', 'sans-serif'],
       },
     },
     variants: {},
