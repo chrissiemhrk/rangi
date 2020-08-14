@@ -5,10 +5,10 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -22,6 +22,11 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .button--green {
