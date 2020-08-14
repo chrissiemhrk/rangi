@@ -7,22 +7,12 @@
       </h1>
       <h3 class="subtitle">A color gradient generator</h3>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+        <nuxt-link to="/two-color-gradient" class="button--green">
+          Two color gradient
+        </nuxt-link>
+        <nuxt-link to="/three-color-gradient" class="button--grey">
+          Three color gradient
+        </nuxt-link>
       </div>
     </div>
   </div>
