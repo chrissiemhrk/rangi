@@ -50,5 +50,24 @@ export default {}
 
 .links {
   padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button--green,
+.button--grey {
+  display: inline-block;
+  border-radius: 4px;
+  border: 2px solid #004d40;
+  color: #004d40;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-bottom: 1.2rem;
+}
+
+.button--green:hover,
+.button--grey:hover {
+  color: #fff;
+  background-color: #004d40;
 }
 </style>
