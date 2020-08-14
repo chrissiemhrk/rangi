@@ -1,5 +1,7 @@
 # Rangi
 
+> A color gradient generator
+
 ## Build Setup
 
 ```bash
